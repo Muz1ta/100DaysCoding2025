@@ -1,7 +1,7 @@
 public class Day4 {
     public static void main(String[] args) {
     
-    String nama = "Muzita can";
+    String nama = "Muzitaa/b can";
     int umur = 18;
     double angkaLahir = 73.2007;
     
