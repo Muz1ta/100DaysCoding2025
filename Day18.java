@@ -1,8 +1,8 @@
 public class tipeee {
     public static void main(String[] args){
-        double angkaA = 30.75;
+        float angkaA = 13.7f;
         System.out.println("Double  = " + angkaA);
-        byte angkaB = (byte) + angkaA;
-        System.out.println("byte = " + angkaB);
+        double angkaB = angkaA;
+        System.out.println("\nHasil setelah konversi ke double = " + angkaB);
     }
 }
