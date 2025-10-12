@@ -11,7 +11,7 @@ public class Day35 {
          }else if (umur >= 12 && umur < 18){
              System.out.println("Rp. 35.000");
          }else{
-             System.out.println("Rp. ");
+             System.out.println("Rp. 50.000 ");
          }
       }   
     }
