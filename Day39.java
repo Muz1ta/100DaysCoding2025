@@ -1,3 +1,5 @@
+package day;
+
 import java.util.Scanner;
 
 public class Day39 {
@@ -6,7 +8,7 @@ public class Day39 {
         System.out.println("Manu Kedai MUZ : ");
         System.out.println("1. Food ");
         System.out.println("2. Drink ");
-        System.out.println("3. Dessert );
+        System.out.println("3. Dessert ");
         System.out.println("4. Done");
        
         
@@ -14,7 +16,7 @@ public class Day39 {
         int pilih = sc.nextInt();
         
         if (pilih == 1){
-//            System.out.println("Chhose Food : ");
+            System.out.println("Chhose Food : ");
             System.out.println("1. Fried Rice ");
             System.out.println("2. Fried Noodles ");
             System.out.println("3. Mixed Rice ");
@@ -35,7 +37,7 @@ public class Day39 {
         int pilihh = sc.nextInt();
         
         if (pilihh == 2){
-//            System.out.println("Choose Drink : ");
+            System.out.println("Choose Drink : ");
             System.out.println("1. Le Mineral");
             System.out.println("2. Avocado Juice");
             System.out.println("3. Orange Juice");
@@ -57,7 +59,7 @@ public class Day39 {
             int pilihhh = sc.nextInt();
             
             if (pilihhh == 3){
-//                System.out.println("Choose Dessert : ");
+                System.out.print("Choose Dessert : ");
                 System.out.println("1. Pudding ");
                 System.out.println("2. Banana Nugget Toping ");
                 System.out.println("3. Mini Brownies ");
@@ -83,3 +85,4 @@ public class Day39 {
 }   
 }
     }
+}
