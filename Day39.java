@@ -1,5 +1,3 @@
-package day;
-
 import java.util.Scanner;
 
 public class Day39 {
@@ -59,7 +57,7 @@ public class Day39 {
             int pilihhh = sc.nextInt();
             
             if (pilihhh == 3){
-                System.out.print("Choose Dessert : ");
+                System.out.println("Choose Dessert : ");
                 System.out.println("1. Pudding ");
                 System.out.println("2. Banana Nugget Toping ");
                 System.out.println("3. Mini Brownies ");
