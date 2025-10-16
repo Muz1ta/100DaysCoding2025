@@ -6,6 +6,7 @@ public class Day39 {
         System.out.println("Manu Kedai MUZ : ");
         System.out.println("1. Food ");
         System.out.println("2. Drink ");
+        System.out.println("3. Dessert );
         System.out.println("4. Done");
        
         
