@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Day39 {
@@ -31,10 +32,8 @@ public class Day39 {
                 
             }
             
-            System.out.print("Order Menu  : ");
-        int pilihh = sc.nextInt();
-        
-        if (pilihh == 2){
+            
+        }else if (pilih == 2){
             System.out.println("Choose Drink : ");
             System.out.println("1. Le Mineral");
             System.out.println("2. Avocado Juice");
@@ -53,10 +52,8 @@ public class Day39 {
             }else{
                 System.out.println("NOT AVAILABLE");
             }
-            System.out.println("Order Menu : ");
-            int pilihhh = sc.nextInt();
             
-            if (pilihhh == 3){
+        }else if (pilih == 3){
                 System.out.println("Choose Dessert : ");
                 System.out.println("1. Pudding ");
                 System.out.println("2. Banana Nugget Toping ");
@@ -81,6 +78,4 @@ public class Day39 {
 }
          System.out.println("THANKYOU FOR YOUR ORDER AND ENJOY YOUR MEAL");
 }   
-}
-    }
 }
