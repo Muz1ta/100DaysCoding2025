@@ -19,9 +19,9 @@ public class latihan55 {
           }else{
             System.out.print("Eror ");
           }
-        }else if(op == '*'){
+        }else if(op == '+'){
             System.out.print("Hasil "+angka1 + " + " + angka2+ " : "+ (angka1 + angka2));
-        }else if (op == '*'){
+        }else if (op == '-'){
             System.out.print("Hasil "+angka1 + " - " + angka2+ " : "+ (angka1 - angka2));
         }else{
             System.out.print("Tidak Valid");
