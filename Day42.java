@@ -10,13 +10,13 @@ public class Day42 {
         System.out.print("Masukkan Gaji Pokok :");
         double gaji = sc.nextDouble();
         sc.nextLine();
-        System.out.print("Masukkan Status :");
-        String nikah = sc.nextLine();
+        System.out.print("Sudah Menikah (true/false) :");
+        boolean nikah = sc.nextBoolean();
         
-        if (nikah.equals("Menikah")){
+        if (nikah == true){
              tunjangan += gaji * 10/100;
             System.out.println("Tunjangan :"+tunjangan);
-        }else if (nikah.equals("Belum")){
+        }else if (nikah == false){
             tunjangan += gaji * 0/100;
             System.out.println("Tunjangan :"+tunjangan);
         }else{
