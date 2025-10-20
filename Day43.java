@@ -4,22 +4,17 @@ public class Day43 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         
-        System.out.print("Masukkan nilai : ");
-        int nilai = sc.nextInt();
+        System.out.print("Masukkan angka : ");
+        int angka = sc.nextInt();
         
-        System.out.println("-PREDIKAT NILAI-");
-        
-        if (nilai >= 90 ){
-            System.out.println("Sangat Baik");
-        }else if (nilai >= 80 && nilai < 90){
-            System.out.println("Baik");
-        }else if (nilai >= 70 && nilai < 80){
-            System.out.println("Cukup");
+        if (angka % 3 == 0 && angka % 5 == 0){
+            System.out.println("Angka Merupakan Kelipatan 3 dan 5");
+        }else if (angka % 3 == 0){
+            System.out.println("Angka Merupakan kelipatan 3");
+        }else if (angka % 5 == 0){
+            System.out.println("Angka merupakan kelipatan 5");
         }else{
-            System.out.println("Kurang");
-        System.out.println("Tetap Semangat");
-        
-   
+            System.out.println("Angka bukan kelipatan 3 dan 5");
         }
     }
     
