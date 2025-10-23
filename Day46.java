@@ -15,11 +15,11 @@ public class Day46 {
         System.out.println("4. Donat Topping :Rp.15000/porsi");
         System.out.print("Pilih menu : ");
         int menu = sc.nextInt();
-        System.out.print("Jumlah pembelian :");
-        int jumlah = sc.nextInt();
         
         switch (menu){
             case 1 :
+                System.out.print("Jumlah pembelian :");
+                int jumlah = sc.nextInt();
                 harga += 5000;
                 total = harga * jumlah;
                 System.out.println("Anda Membeli "+jumlah+" porsi Pisang Nugget");
@@ -27,6 +27,8 @@ public class Day46 {
                 break;
         
             case 2 :
+                System.out.print("Jumlah pembelian :");
+                jumlah = sc.nextInt();
                 harga += 10000;
                 total = harga * jumlah;
                 System.out.println("Anda Membeli "+jumlah+" porsi Salad Buah");
@@ -34,6 +36,8 @@ public class Day46 {
                 break;
                 
             case 3 :
+                System.out.print("Jumlah pembelian :");
+                jumlah = sc.nextInt();
                 harga += 8000;
                 total = harga * jumlah;
                 System.out.println("Anda Membeli "+jumlah+" pcs Mochimi");
@@ -41,11 +45,16 @@ public class Day46 {
                 break;
                 
             case 4 :
+                System.out.print("Jumlah pembelian :");
+                jumlah = sc.nextInt();
                 harga += 15000;
                 total = harga * jumlah;
                 System.out.println("Anda Membeli "+jumlah+" porsi Donat Topping");
                 System.out.println("Total bayar :"+total);
                 break;
+                
+            default :
+                System.out.println("TIDAK VALID");
                 
         }
         System.out.println("Enjoy your meal !!!");
