@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Day59 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        
+        System.out.print("Masukkan nilai N : ");
+        int n = sc.nextInt();
+        
+        System.out.println(" ");
+        System.out.println("Angka Ganjil dari 1-N");
+        for (int i = 1; i <= n; i+=2) {
+            System.out.print(i+" ");
+        }
+        System.out.println(" ");
+        System.out.println("Angka Genap dari 1-N");
+        for (int i = 2; i <= n; i+=2) {
+            System.out.print(i+" ");
+        }
+        
+    }
+    
+}
